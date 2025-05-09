@@ -7,7 +7,8 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>salazarjoelo@gmail.com</authorEmail>
     <authorUrl>salazarjoelo.github.io</authorUrl>
-    <version>5.0.0</version> <description>COM_TIMELINE_DESCRIPTION</description>
+    <version>5.0.0</version>
+    <description>COM_TIMELINE_DESCRIPTION</description>
 
     <namespace>Salazarjoelo\Component\Timeline</namespace>
 
@@ -31,8 +32,7 @@
 
     <files folder="site">
         <folder>forms</folder>
-        <folder>language</folder>
-        <folder>layouts</folder>
+        <folder>language</folder> <folder>layouts</folder>
         <folder>services</folder>
         <folder>src</folder>
         <folder>tmpl</folder>
@@ -56,25 +56,4 @@
                   view="items"
                   img="class:list-ul"
                   alt="Timeline/Items">COM_TIMELINE_SUBMENU_ITEMS</menu>
-            </submenu>
-
-        <files folder="admin">
-            <filename>config.xml</filename> <filename>index.html</filename>
-            <folder>forms</folder>
-            <folder>language</folder>
-            <folder>layouts</folder>
-            <folder>services</folder>
-            <folder>sql</folder>
-            <folder>src</folder>
-            <folder>tmpl</folder>
-        </files>
-
-        <languages folder="admin">
-            <language tag="en-GB">language/en-GB/com_timeline.ini</language>
-            <language tag="en-GB">language/en-GB/com_timeline.sys.ini</language> </languages>
-        <languages folder="site">
-            <language tag="en-GB">language/en-GB/com_timeline.ini</language>
-        </languages>
-    </administration>
-
-</extension>
+        </submenu>
